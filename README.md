@@ -1,3 +1,3 @@
 # Resume
 
-![My alt text](https://ibb.co/djLMCRG)
+![](https://github.com/cozyCodr/Resume/blob/main/images/desktop-img.png)
