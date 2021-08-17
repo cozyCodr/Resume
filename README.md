@@ -1,5 +1,4 @@
 # Resume
 
-![alt text](https://github.com/github/{repository}/blob/main/images/desktop-img.png )
-
-![alt text](./images/desktop.png?raw=true)
+![My alt text](https://ibb.co/djLMCRG)
+![My alt text](https://ibb.co/hBB6c9Q)
