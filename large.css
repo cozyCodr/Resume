@@ -1,0 +1,56 @@
+@media screen and (min-width: 575px){
+	main {
+		display: flex;
+	}	
+
+	#header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;	
+	}
+
+	img {
+		min-width: 50px;
+		max-width: 200px;
+	}
+
+	#user {
+		display: flex;
+		flex-direction: row;	
+	}
+
+	.identity {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.about-me {
+		max-width: 35ch;
+		color: rgba(0,0,0,0.5);
+	}
+
+	.grouping-item {
+		display: block
+	}
+
+	.grouping {
+		display: block;
+	}
+
+	.left-section {
+		width: 45%;
+		margin-left: 3rem;
+	}
+
+	.right-section {
+		width:55%;
+		margin-right: 3rem;
+	}
+
+	.left-section,
+	.right-section {
+		display: flex;
+		flex-direction: column;
+	}
+}
