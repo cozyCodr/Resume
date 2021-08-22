@@ -2,12 +2,23 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: Open Sans;
+	font-family: 'Poppins', sans-serif;
+	color: #25545c;
+}
+
+body {
+	overflow-x: hidden;
+	/*background: rgba(0,0,0,.01) url("./assets/blowup-bg.jpg") no-repeat;
+	background-attachment: fixed;*/
 }
 
 a {
 	color: rgba(0,0,0,0.7);
 	text-decoration: none;
+}
+
+p {
+		font-weight: 700;
 }
 
 .image {
@@ -16,9 +27,11 @@ a {
 }
 
 .identity {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-top: 1rem;
 }
 
 .fa { 
@@ -26,43 +39,96 @@ a {
 }
 
 .user-identity img {
-	width: 200px;
+	margin: auto;
+	width: 120px;
 	border-radius: 50%;
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+}
+
+.social-links {
+	width: 100%;
+}
+
+.socials {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .grouping-item {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 }
 
 .grouping {
 	padding: 1rem;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 }
 
 .grouping-name {
 	display: inline-block;
-	border-top: 2px solid rgba(0,0,0,1);
-	border-bottom: 2px solid rgba(0,0,0,1);
+	margin-top: 1rem;
+	border-bottom: 2px solid rgba(0,0,0,.4);
 }
 
 .grouping-item {
+	position: relative;
 	padding-top: .7rem;
 }
 
 .my-name {
+	font-family: 'Rampart One', cursive;
+	font-size: 2.5rem;
+	text-transform: uppercase;
 	font-weight: 700;
+	color: #25545c;
+}
+
+.identity h3 {
+	font-family: 'Allison', cursive;
+	font-size: 1.6rem;
+	color: #25545c;
 }
 
 .program,
 .project,
 .certificate-name,
 .language {
+	position: relative;
 	font-size: 16px;
 	font-weight: 700;
+}
+
+.certificates {
+	position: relative;
+	z-index: 10;
+}
+
+.grouping-name,
+.certificate-name {
+	color: #1b3a40;
+	font-weight: 700;
+}
+
+.devices-img,
+.dice-img {
+	position: absolute;
+	z-index: 1;
+	opacity: 0.2;
+}
+
+.devices-img {
+	top: -7rem;
+	right: -1rem;
+	width: 70%;
+}
+
+.dice-img {
+	right: 1rem;
+	top:-5rem;
+	width: 200px;
 }
 
 .interests {
@@ -74,8 +140,72 @@ a {
 	display: inline-block;
 	margin: 0.3rem;
 	padding: 5px;
-	border: 1px solid rgba(0,0,0,0.3);
 	border-radius: 3px;
 	width: auto;
 	height: auto;
+}
+
+.bars {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0;
+	height: 20px;
+	width: 100%;
+	border-radius: 15px;
+	border: 1px solid rgba(0,0,0,.3);
+}
+
+.bar {
+	display: flex;
+	width: 98%;
+	height: 12px;
+	border-radius: 15px;
+}
+
+.english-bar {
+	background-color: #25545c;
+	border-radius: 15px;
+	width: 100%;
+}
+
+.bemba-bar {
+	background-color: #25545c;
+	border-radius: 15px;
+	width: 100%;
+}
+
+.nyanja-bar {
+	background-color: #25545c;
+	border-radius: 15px;
+	width: 70%;
+}
+
+.filled-dot {
+	background-color: orange;
+}
+
+i {
+	color: #25545c;
+	font-size: 20px;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+.skill-name {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.skill-name i,
+.interests i {
+	margin: 1rem;
+	font-size: 4rem;
+}
+
+.social-link-nav {
+	padding: 1rem;
 }

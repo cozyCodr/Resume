@@ -12,6 +12,20 @@
     <link rel="stylesheet" href="small.css" type="text/css"> 
     <link rel="stylesheet" href="large.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Allison&family=Poppins:wght@200&family=Rampart+One&display=swap" rel="stylesheet">	
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+
+		
+
+	<!-- fonts available
+	font-family: 'Allison', cursive;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Rampart One', cursive; 
+	-->
+
 </head>
 
 <body> 
@@ -21,30 +35,38 @@
 		<div id="user" class="user-identity grouping-item">
 
 			<img src="images/head.png"/>
+			
 			<div class="identity">
 				<h1 class="my-name">Bright Londa</h1>
 				<h3 class="">Mr.</h3>
-				<h4 class="about-me">A 21
-				<script>
-					// var dob = new Date("09/21/1999");
-					// var month_diff = Date.now() - dob.getTime();
-					// var age_diff = new Date(month_diff);
-					// var year = age_diff.getFullYear();
-					// var age  Math.abs(year - 1970);
-					// document.write(age);
 
-				</script> 
-			year old ever learning student intrigued by the world of programming, data science and social media. </h4>
+				<div class="socials">
+					
+					<p class="social-link-nav">
+						<i class="fab fa-linkedin-square" aria-hidden="true"><a href="https://linkedin.com/in/bright-londa"></a></i> 				
+					</p>
+					<p class="social-link-nav">											
+						<i class="fab fa-github" aria-hidden="true"><a href="https://github.com/cozyCodr"></a></i> 
+					</p>
+
+					<p class="social-link-nav">									
+						<i class="fab fa-twitter" aria-hidden="true"><a href="	https://twitter/TheStoneKeepr"></a></i> 
+					</p>
+				</div>	
 			</div>
 		</div>
 
 		<div class="social-links grouping-item">
+			
+			<div>
 			<p><i class="fa fa-envelope" aria-hidden="true"></i> brightdev.jobs@gmail.com</p>
+			</div>
+			<div>
 			<p><i class="fa fa-mobile" aria-hidden="true"></i> +260 969 333 272, +260 957 934 146</p>
+			</div>
+			<div>
 			<p><i class="fa fa-map-marker" aria-hidden="true"></i> Chingola, Zambia</p>
-			<p><i class="fa fa-linkedin-square" aria-hidden="true"></i> <a href="https://linkedin.com/in/bright-londa">linkedin.com/in/bright-londa</a></p>
-			<p><i class="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/cozyCodr">github.com/cozyCodr</a></p>
-			<p><i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://twitter/TheStoneKeepr">twitter.com/TheStoneKeepr</a></p>
+			</div>
 		</div>
 	</header>
 
@@ -52,8 +74,10 @@
 		<section class="left-section">
 			
 			<div class="education grouping">
+
 				<h2 class="grouping-name">Education</h2>
 				<div class="grouping-item">
+					<img src="./assets/dice-dotted-cube-toy.png" class="dice-img">
 					<p class="program">Bsc Bioinformatics</p>
 					<p class="institution">The Copperbelt University</p>
 					<p class="duration">10/2018 - Present</p>
@@ -108,13 +132,15 @@
 				<h2 class="grouping-name">Skills</h2>
 
 				<div>
-					<div class="skill-name ">Java</div>
-					<div class="skill-name ">Basic Data Science</div>
-					<div class="skill-name ">JavaScript</div>
-					<div class="skill-name ">Web Development</div>
-					<div class="skill-name ">Spring Boot</div>
-					<div class="skill-name ">Spring Web</div>
-					<div class="skill-name ">Statistics</div>
+					<div class="row" id="top-row">
+						<div class="skill-name"><i class="fab fa-html5"></i></div>
+						<div class="skill-name "><i class="fab fa-java"></i></div>
+						<div class="skill-name "><i class="fab fa-js"></i></div>
+					</div>
+					<div class="row" id="bottom-row">
+						<div class="skill-name "><i class="fab fa-google"></i></div>
+						<div class="skill-name "><i class="fas fa-calculator"></i></div>
+					</div>
 				</div>
 
 			</div>
@@ -136,8 +162,15 @@
 		<section class="right-section">
 
 			<div class="certificates grouping">
+
+				<div class="about-me">
+					<h4 >A 21
+					year old ever learning student intrigued by the world of programming, data science and social media. </h4>
+				</div>	
+				
 				<h2 class="grouping-name">Certificates</h2>
 				<div class="grouping-item">
+					<img src="./assets/devices.png" class="devices-img">
 					<p class="certificate-name">Algorithms and Data Structures (12/2020 - 05/2021)</p>
 					<p class="about-certificate">Earned certification from <a href="https://freecodecamp.or">Freecodecamp</a> after completing 5 Capstone Projects. The Certificication includes Javascript, Basic algorithm Scripting, Data Structures and Advanced Algorith Scripting </p>
 				</div>
@@ -178,17 +211,29 @@
 				
 				<div class="grouping-item">
 					<p class="language">English</p>
-					<p class="lang-proficiency">Native or Bilingual Proficiency</p>
+					<div class="bars">
+						<div class="bar">
+							<div class="english-bar"></div>
+						</div>
+					</div>
 				</div>
 				
 				<div class="grouping-item">
 					<p class="language">Bemba</p>
-					<p class="lang-proficiency">Native or Bilingual Proficiency</p>
+					<div class="bars">
+						<div class="bar">
+							<div class="bemba-bar"></div>
+						</div>
+					</div>
 				</div>
 				
 				<div class="grouping-item">
 					<p class="language">Nyanja</p>
-					<p class="lang-proficiency">Full Professional Proficiency</p>
+					<div class="bars">
+						<div class="bar">
+							<div class="nyanja-bar"></div>
+						</div>
+					</div>
 				</div>
 
 			</div>
@@ -196,14 +241,16 @@
 			<div class="interests grouping">
 				<h2 class="grouping-name">Interests</h2>
 				<div class="cards-container">
-					<div class="interest">Coding</div>
-					<div class="interest">Football/Soccer</div>
-					<div class="interest">Reading</div>
-					<div class="interest">Cars</div>
-					<div class="interest">Technology</div>
-					<div class="interest">Social Media</div>
-					<div class="interest">Twitter</div>
-					<div class="interest">Data Science</div>
+					
+					<div class="row">
+						<div class="interest"><i class="fa fa-code" aria-hidden="true"></i></div>
+						<div class="interest"><i class="fa fa-futbol-o" aria-hidden="true"></i></div>
+						<div class="interest"><i class="fas fa-book-open"></i></div>
+					</div>
+					<div class="row">	
+						<div class="interest"><i class="fas fa-car"></i></div>
+						<div class="interest"><i class="fab fa-twitter-square"></i></div>
+					</div>
 				</div>
 			</div>
 

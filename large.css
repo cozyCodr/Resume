@@ -1,22 +1,49 @@
 @media screen and (min-width: 575px){
+	
+
 	main {
 		display: flex;
 	}	
 
 	#header {
+		width: 100%;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;	
+		margin-bottom: 1rem;
+		background-color: rgba(37, 84, 92,0.2);
 	}
 
-	img {
-		min-width: 50px;
-		max-width: 200px;
+	#user img {
+		width: 200px;
+		border: none;
+		box-shadow: none;
 	}
 
 	#user {
 		display: flex;
-		flex-direction: row;	
+		flex-direction: row;
+		width: 50%;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.social-link-nav {
+		padding: 1rem 1rem 1rem 0;
+	}
+
+	.socials {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+
+	.social-links {
+		display: flex;
+		justify-content:center ;
+		align-items: flex-end;
+		width: 50%;
 	}
 
 	.identity {
@@ -25,26 +52,13 @@
 		align-items: flex-start;
 	}
 
-	.about-me {
-		max-width: 35ch;
-		color: rgba(0,0,0,0.5);
-	}
-
-	.grouping-item {
-		display: block
-	}
-
-	.grouping {
-		display: block;
-	}
-
 	.left-section {
-		width: 45%;
+		width: 35%;
 		margin-left: 3rem;
 	}
 
 	.right-section {
-		width:55%;
+		width:65%;
 		margin-right: 3rem;
 	}
 
@@ -52,5 +66,16 @@
 	.right-section {
 		display: flex;
 		flex-direction: column;
+	}
+
+
+	.bars {
+		width: 70%;
+		height: 15px;
+	}
+
+	.bar {
+		height: 11px;
+		width: 99%;
 	}
 }
